@@ -1,0 +1,1525 @@
+{
+  "gaearon": {
+    "result": {
+      "profile": {
+        "login": "gaearon",
+        "name": "dan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/810438?v=4",
+        "bio": null,
+        "company": null,
+        "location": null,
+        "blog": "danabra.mov",
+        "htmlUrl": "https://github.com/gaearon",
+        "publicRepos": 301,
+        "followers": 94159,
+        "following": 174,
+        "createdAt": "2011-05-25T18:18:31Z"
+      },
+      "topRepos": [
+        {
+          "id": 159876616,
+          "name": "overreacted.io",
+          "fullName": "gaearon/overreacted.io",
+          "description": "Personal blog by Dan Abramov.",
+          "htmlUrl": "https://github.com/gaearon/overreacted.io",
+          "homepage": "https://overreacted.io",
+          "language": "TypeScript",
+          "topics": [],
+          "stars": 7274,
+          "forks": 1697,
+          "watchers": 7274,
+          "openIssues": 13,
+          "updatedAt": "2026-11-16T10:23:06Z",
+          "pushedAt": "2026-09-18T20:38:22Z",
+          "isFork": false,
+          "relevanceScore": 173,
+          "repoLanguages": [
+            "TypeScript",
+            "JavaScript",
+            "CSS"
+          ],
+          "detectedStack": [
+            "TypeScript",
+            "JavaScript",
+            "CSS"
+          ]
+        },
+        {
+          "id": 1349160944,
+          "name": "conway-refinement",
+          "fullName": "gaearon/conway-refinement",
+          "description": "A proof of Conway's refinement conjecture in Lean",
+          "htmlUrl": "https://github.com/gaearon/conway-refinement",
+          "homepage": "http://gaearon.github.io/conway-refinement/",
+          "language": "Lean",
+          "topics": [
+            "lean4"
+          ],
+          "stars": 56,
+          "forks": 5,
+          "watchers": 56,
+          "openIssues": 0,
+          "updatedAt": "2026-10-30T08:06:37Z",
+          "pushedAt": "2026-09-03T21:05:48Z",
+          "isFork": false,
+          "relevanceScore": 168,
+          "repoLanguages": [
+            "Lean",
+            "TypeScript",
+            "Python",
+            "Shell"
+          ],
+          "detectedStack": [
+            "Lean",
+            "TypeScript",
+            "Python",
+            "Shell"
+          ],
+          "readmeExcerpt": "# A Proof of Conway’s Refinement Conjecture 50 years ago, in his book *On Numbers and Games*, John Conway proposed a conjecture: He claims that if $a,b,c,d\\in\\mathbf{Oz}$ and $ab=cd$, then there are $e,f,g,h\\in\\mathbf{Oz}$ such that $a=ef$, $b=gh$, $c=eg$, and $d=fh$. (If you're not familiar with omnific integers aka $\\mathbf{Oz}$, I briefly describe them at the bottom.) I believe that this repository contains a proof of this conjecture, which you can explore through its proof map. About this proof This proof was obtained in a somewhat unusual way. I am not a mathematician, but I have an amateur level of interest in mathematics. Initially, after seeing all the recent headlines, I wanted to try an \"AI proof\" as an experiment. I asked Claude to pick an open problem about surreal numbers, a strange and beautiful invention (discovery?) of Joh"
+        },
+        {
+          "id": 278740276,
+          "name": "whatthefuck.is",
+          "fullName": "gaearon/whatthefuck.is",
+          "description": "An opinionated glossary of computer science terms for front-end developers. Written by Dan Abramov.",
+          "htmlUrl": "https://github.com/gaearon/whatthefuck.is",
+          "homepage": "https://whatthefuck.is",
+          "language": "JavaScript",
+          "topics": [
+            "glossary",
+            "javascript"
+          ],
+          "stars": 3033,
+          "forks": 111,
+          "watchers": 3033,
+          "openIssues": 333,
+          "updatedAt": "2026-11-16T01:03:13Z",
+          "pushedAt": "2022-12-13T06:41:09Z",
+          "isFork": false,
+          "relevanceScore": 148,
+          "repoLanguages": [
+            "CSS",
+            "JavaScript"
+          ],
+          "detectedStack": [
+            "CSS",
+            "JavaScript"
+          ],
+          "readmeExcerpt": "# whatthefuck.is An opinionated glossary of computer science terms for front-end developers. Written by Dan Abramov. Contributing Typo fixes and website improvements are welcome as pull requests. We do not accept definitions, but you’re welcome to vote on (and request) definitions in the issue tracker. You can sort popular issues by sorting by reactions."
+        },
+        {
+          "id": 131546414,
+          "name": "subliminal",
+          "fullName": "gaearon/subliminal",
+          "description": "An opinionated minimalistic VS Code theme for JavaScript",
+          "htmlUrl": "https://github.com/gaearon/subliminal",
+          "homepage": "https://marketplace.visualstudio.com/items?itemName=gaearon.subliminal",
+          "language": null,
+          "topics": [
+            "javascript",
+            "spacegray",
+            "sublime",
+            "vscode-theme"
+          ],
+          "stars": 623,
+          "forks": 24,
+          "watchers": 623,
+          "openIssues": 16,
+          "updatedAt": "2026-11-11T13:30:40Z",
+          "pushedAt": "2019-03-29T16:15:37Z",
+          "isFork": false,
+          "relevanceScore": 144,
+          "repoLanguages": [],
+          "detectedStack": [
+            "JavaScript"
+          ],
+          "readmeExcerpt": "# Subliminal Subliminal is an opinionated minimalistic VS Code theme that is very loosely based on Oceanic Next and Spacegray. See Credits for a detailed lineage. Note: support for languages other than JavaScript is pretty much non-existent right now. Pull requests to fix this are welcome. Disclaimer I’m just sharing what works for me. I’m an engineer and not a graphic designer. This theme is intentionally focused on a small subset of VS Code features that I use (basic editing, file tree, and debugger) and may not work well in other scenarios. However, I’ll happily take changes that respect the design intention but fix rough edges in parts I didn’t polish (e.g. viewing diffs, terminal, or search). The theme is intentionally very opinionated and we may disagree about some of its choices. Philosophically, it owes some inspiration to Alabast"
+        },
+        {
+          "id": 21779020,
+          "name": "react-hot-loader",
+          "fullName": "gaearon/react-hot-loader",
+          "description": "Tweak React components in real time. (Deprecated: use Fast Refresh instead.)",
+          "htmlUrl": "https://github.com/gaearon/react-hot-loader",
+          "homepage": "http://gaearon.github.io/react-hot-loader/",
+          "language": "JavaScript",
+          "topics": [],
+          "stars": 12148,
+          "forks": 770,
+          "watchers": 12148,
+          "openIssues": 463,
+          "updatedAt": "2026-11-14T01:19:49Z",
+          "pushedAt": "2023-02-10T02:42:07Z",
+          "isFork": false,
+          "relevanceScore": 138,
+          "repoLanguages": [
+            "JavaScript"
+          ],
+          "detectedStack": [
+            "JavaScript",
+            "React"
+          ]
+        },
+        {
+          "id": 57910760,
+          "name": "todos",
+          "fullName": "gaearon/todos",
+          "description": "Examples for “Idiomatic Redux”: one branch per lesson",
+          "htmlUrl": "https://github.com/gaearon/todos",
+          "homepage": "https://egghead.io/series/building-react-applications-with-idiomatic-redux",
+          "language": "JavaScript",
+          "topics": [],
+          "stars": 786,
+          "forks": 301,
+          "watchers": 786,
+          "openIssues": 7,
+          "updatedAt": "2026-07-18T17:00:09Z",
+          "pushedAt": "2020-06-10T11:26:42Z",
+          "isFork": false,
+          "relevanceScore": 138,
+          "repoLanguages": [
+            "JavaScript"
+          ],
+          "detectedStack": [
+            "JavaScript",
+            "Redux"
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "language": "JavaScript",
+          "repoCount": 20,
+          "percentage": 46,
+          "color": "#EAB308"
+        },
+        {
+          "language": "TypeScript",
+          "repoCount": 5,
+          "percentage": 26,
+          "color": "#3178C6"
+        },
+        {
+          "language": "Lean",
+          "repoCount": 1,
+          "percentage": 19,
+          "color": "#64748B"
+        },
+        {
+          "language": "CSS",
+          "repoCount": 2,
+          "percentage": 6,
+          "color": "#563D7C"
+        },
+        {
+          "language": "Kotlin",
+          "repoCount": 2,
+          "percentage": 3,
+          "color": "#A97BFF"
+        },
+        {
+          "language": "Python",
+          "repoCount": 1,
+          "percentage": 1,
+          "color": "#3572A5"
+        }
+      ],
+      "activity": {
+        "recentEventsCount": 30,
+        "pushEventsCount": 27,
+        "prEventsCount": 0,
+        "activeDaysLast30": 2,
+        "totalStars": 40079,
+        "totalForks": 4846,
+        "primaryLanguage": "JavaScript",
+        "topLanguages": [
+          "JavaScript",
+          "TypeScript",
+          "Lean"
+        ],
+        "inferredFocus": "Frontend & UI Engineering",
+        "accountYears": 15.5,
+        "originalReposCount": 32,
+        "detectedTechnologies": [
+          "TypeScript",
+          "JavaScript",
+          "CSS",
+          "Lean",
+          "Python",
+          "Shell",
+          "React",
+          "Redux"
+        ]
+      },
+      "analyzedAt": "2026-11-17T03:22:02.735Z"
+    },
+    "expiresAt": 1794889322735
+  },
+  "mostafa-rady-a": {
+    "result": {
+      "profile": {
+        "login": "Mostafa-Rady-A",
+        "name": "Mostafa Rady",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/168395249?v=4",
+        "bio": "💻 Software Engineer | MERN Stack Developer  \r\nBuilding responsive, user-focused web applications with React, Node.js, Express.js, and MongoDB. Passionate about",
+        "company": null,
+        "location": null,
+        "blog": "",
+        "htmlUrl": "https://github.com/Mostafa-Rady-A",
+        "publicRepos": 7,
+        "followers": 0,
+        "following": 1,
+        "createdAt": "2024-04-29T03:56:45Z"
+      },
+      "topRepos": [
+        {
+          "id": 1417034235,
+          "name": "AI-Powered-Developer-Portfolio-Builder",
+          "fullName": "Mostafa-Rady-A/AI-Powered-Developer-Portfolio-Builder",
+          "description": "A platform that helps junior developers create professional, high-performance portfolios by analyzing their GitHub activity and generating optimized content.",
+          "htmlUrl": "https://github.com/Mostafa-Rady-A/AI-Powered-Developer-Portfolio-Builder",
+          "homepage": null,
+          "language": null,
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2026-10-13T12:45:17Z",
+          "pushedAt": "2026-10-13T12:45:14Z",
+          "isFork": false,
+          "relevanceScore": 72,
+          "repoLanguages": [],
+          "detectedStack": [],
+          "readmeExcerpt": "# AI-Powered-Developer-Portfolio-Builder A platform that helps junior developers create professional, high-performance portfolios by analyzing their GitHub activity and generating optimized content."
+        },
+        {
+          "id": 1243911829,
+          "name": "TinyCalc",
+          "fullName": "Mostafa-Rady-A/TinyCalc",
+          "description": "Software project built with Java and hosted on GitHub.",
+          "htmlUrl": "https://github.com/Mostafa-Rady-A/TinyCalc",
+          "homepage": null,
+          "language": "Java",
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2026-05-19T20:44:19Z",
+          "pushedAt": "2026-05-19T20:44:15Z",
+          "isFork": false,
+          "relevanceScore": 47,
+          "repoLanguages": [
+            "Java"
+          ],
+          "detectedStack": [
+            "Java"
+          ]
+        },
+        {
+          "id": 1238225353,
+          "name": "Wiggle-Sort",
+          "fullName": "Mostafa-Rady-A/Wiggle-Sort",
+          "description": "# Wiggle-Sort",
+          "htmlUrl": "https://github.com/Mostafa-Rady-A/Wiggle-Sort",
+          "homepage": null,
+          "language": null,
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2026-05-13T23:51:42Z",
+          "pushedAt": "2026-05-13T23:51:37Z",
+          "isFork": false,
+          "relevanceScore": 39,
+          "repoLanguages": [],
+          "detectedStack": [],
+          "readmeExcerpt": "# Wiggle-Sort"
+        },
+        {
+          "id": 793352214,
+          "name": "Mostafa-Rady-A.githup.io",
+          "fullName": "Mostafa-Rady-A/Mostafa-Rady-A.githup.io",
+          "description": "Software project built with modern tooling and hosted on GitHub.",
+          "htmlUrl": "https://github.com/Mostafa-Rady-A/Mostafa-Rady-A.githup.io",
+          "homepage": null,
+          "language": null,
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2024-04-29T04:02:28Z",
+          "pushedAt": "2024-04-29T04:02:28Z",
+          "isFork": false,
+          "relevanceScore": 20,
+          "repoLanguages": [],
+          "detectedStack": []
+        }
+      ],
+      "languages": [
+        {
+          "language": "Java",
+          "repoCount": 1,
+          "percentage": 100,
+          "color": "#B07219"
+        }
+      ],
+      "activity": {
+        "recentEventsCount": 1,
+        "pushEventsCount": 0,
+        "prEventsCount": 0,
+        "activeDaysLast30": 1,
+        "totalStars": 0,
+        "totalForks": 0,
+        "primaryLanguage": "Java",
+        "topLanguages": [
+          "Java"
+        ],
+        "inferredFocus": "Full-Stack Web Engineering",
+        "accountYears": 2.6,
+        "originalReposCount": 4,
+        "detectedTechnologies": [
+          "Java",
+          "React",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "REST API"
+        ]
+      },
+      "profileReadmeExcerpt": "# 💫 About Me: 💻 Software Engineer | MERN Stack Developer Focused on backend development, RESTful API design, and database management using Node.js, Express.js, and MongoDB. Skilled in building scalable backend services and integrating APIs with modern React applications. Passionate about clean code, software architecture, and solving real-world problems. 🚀 🌐 Socials: # 💻 Tech Stack: # 📊 GitHub Stats: 🏆 GitHub Trophies ✍️ Random Dev Quote 🔝 Top Contributed Repo",
+      "analyzedAt": "2026-11-17T00:17:10.641Z"
+    },
+    "expiresAt": 1794878230641
+  },
+  "gakonst": {
+    "result": {
+      "profile": {
+        "login": "gakonst",
+        "name": "Georgios Konstantopoulos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17802178?v=4",
+        "bio": "cto @paradigmxyz / @tempoxyz. rustacean/devtools/security/high performance. crypto 10yrs.",
+        "company": "@paradigmxyz",
+        "location": "Thessaloniki, Greece",
+        "blog": "https://gakonst.com",
+        "htmlUrl": "https://github.com/gakonst",
+        "publicRepos": 320,
+        "followers": 5629,
+        "following": 748,
+        "createdAt": "2016-03-12T18:50:36Z"
+      },
+      "topRepos": [
+        {
+          "id": 1298593974,
+          "name": "djbooth",
+          "fullName": "gakonst/djbooth",
+          "description": "Give your agent a DJ booth: one local system for music discovery, acquisition, analysis, stems, playlists, Rekordbox-compatible USBs, and CDJs.",
+          "htmlUrl": "https://github.com/gakonst/djbooth",
+          "homepage": "https://djbooth.ai",
+          "language": "TypeScript",
+          "topics": [
+            "ai-agents",
+            "dj",
+            "music-analysis",
+            "pro-dj-link",
+            "rekordbox",
+            "rust"
+          ],
+          "stars": 45,
+          "forks": 7,
+          "watchers": 45,
+          "openIssues": 9,
+          "updatedAt": "2026-11-13T07:00:05Z",
+          "pushedAt": "2026-10-31T20:55:02Z",
+          "isFork": false,
+          "relevanceScore": 177,
+          "repoLanguages": [
+            "TypeScript",
+            "Rust",
+            "Swift",
+            "CSS"
+          ],
+          "detectedStack": [
+            "TypeScript",
+            "Rust",
+            "Swift",
+            "CSS",
+            "Node.js",
+            "GitHub Actions"
+          ],
+          "readmeExcerpt": "djbooth.ai Give your agent a DJ booth. &nbsp; [![Github Actions][gha-badge]][gha-url] [![Node][node-badge]][node-url] [![Rust][rust-badge]][rust-url] [gha-badge]: https://img.shields.io/github/actions/workflow/status/gakonst/djbooth/main.yml?branch=main&style=flat-square [gha-url]: https://github.com/gakonst/djbooth/actions [node-badge]: https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white&style=flat-square [node-url]: https://nodejs.org/ [rust-badge]: https://img.shields.io/badge/native-Rust-black?logo=rust&style=flat-square [rust-url]: https://www.rust-lang.org/ Install | Why djbooth.ai | Getting Started | Workbench | Architecture | Compatibility Journal Agentic, local-first toolkit for taking music from discovery to a prepared DJ set, with 1:1 Rekordbox compatibility at the Pioneer DJ/AlphaTheta hardware bound"
+        },
+        {
+          "id": 1453694054,
+          "name": "tatami",
+          "fullName": "gakonst/tatami",
+          "description": "A tiling window manager for macOS, written from scratch in Zig",
+          "htmlUrl": "https://github.com/gakonst/tatami",
+          "homepage": null,
+          "language": "Zig",
+          "topics": [],
+          "stars": 96,
+          "forks": 150,
+          "watchers": 96,
+          "openIssues": 2,
+          "updatedAt": "2026-11-16T22:33:05Z",
+          "pushedAt": "2026-11-16T16:41:41Z",
+          "isFork": false,
+          "relevanceScore": 168,
+          "repoLanguages": [
+            "Zig",
+            "Swift",
+            "Shell",
+            "Makefile"
+          ],
+          "detectedStack": [
+            "Zig",
+            "Swift",
+            "Shell",
+            "Makefile"
+          ],
+          "readmeExcerpt": "# tatami A tiling window manager for macOS, written from scratch in Zig. No dependencies: the only thing the build needs is the pinned Zig toolchain, and the binary links only system frameworks. It exists because AeroSpace kept hanging, looping and re-tiling windows it should have left alone. See docs/COMPLAINTS.md for each complaint and the behaviour that answers it. Status | Part | State | | | | | Engine (layout, focus, workspaces, rules) | Verified by unit tests, scenario tests and a deterministic simulator | | macOS shell (Accessibility, hot keys, displays, IPC) | Run live on one Mac (macOS 26.3, one display, 4 windows). See below. | Checked live, each against an independent Accessibility read of every window: - Discovery and tiling of the windows that were open, focus, swap, zoom-fullscreen. - Workspace switch and back (frames return"
+        },
+        {
+          "id": 1375335918,
+          "name": "evm-bend",
+          "fullName": "gakonst/evm-bend",
+          "description": "Correctness-first EVM interpreter in Bend targeting Amsterdam. Working interpreter; full conformance and proofs in progress.",
+          "htmlUrl": "https://github.com/gakonst/evm-bend",
+          "homepage": null,
+          "language": "TypeScript",
+          "topics": [],
+          "stars": 21,
+          "forks": 2,
+          "watchers": 21,
+          "openIssues": 0,
+          "updatedAt": "2026-10-01T19:54:16Z",
+          "pushedAt": "2026-09-18T07:32:08Z",
+          "isFork": false,
+          "relevanceScore": 143,
+          "repoLanguages": [
+            "TypeScript",
+            "Python",
+            "Rust",
+            "C"
+          ],
+          "detectedStack": [
+            "TypeScript",
+            "Python",
+            "Rust",
+            "C",
+            "JavaScript"
+          ],
+          "readmeExcerpt": "# EVM in Bend — Amsterdam An EVM transaction and frame interpreter written in Bend 2.0.5, targeting the pinned Amsterdam execution fork of Glamsterdam. Opcode execution, 256-bit arithmetic, Keccak, memory, account/storage journals, nested calls, creation and gas accounting are Bend. Standard cryptographic precompiles use an explicit Rust host adapter backed by evm2. Python only serializes JSON/binary inputs and normalizes output. This is a correctness-first experimental implementation, not an end-to-end proved EVM or a production client . The earlier Shanghai subset and its laws remain regression material; `full/main.bend` is the current interpreter. Current status State-test gate complete: all 15,918 pinned Amsterdam state fixtures pass on both native and JavaScript. There are zero skipped, blocked, failed, or host-error cases. Both fres"
+        },
+        {
+          "id": 1300983367,
+          "name": "incur-rs",
+          "fullName": "gakonst/incur-rs",
+          "description": "Agent-native CLI framework for Rust",
+          "htmlUrl": "https://github.com/gakonst/incur-rs",
+          "homepage": null,
+          "language": "Rust",
+          "topics": [],
+          "stars": 19,
+          "forks": 0,
+          "watchers": 19,
+          "openIssues": 8,
+          "updatedAt": "2026-10-12T10:36:30Z",
+          "pushedAt": "2026-09-29T00:24:14Z",
+          "isFork": false,
+          "relevanceScore": 138,
+          "repoLanguages": [
+            "Rust"
+          ],
+          "detectedStack": [
+            "Rust"
+          ],
+          "readmeExcerpt": "# incur-rs A Rust port of wevm/incur for CLIs that need to work equally well for humans and coding agents. Your application defines its CLI once with familiar Rust derives. From that command graph, `incur` derives JSON Schema, LLM manifests, Skills, shell completions, HTTP routes, and MCP tools. Output is typed, serializable, and described to agents by the same derive. Features - [derive(Incur)]` for command inputs and [derive(IncurOutput)]` for typed outputs. - Agent discovery through `skills add`, `mcp add`, mcp`, llms`, and llms-full`. - JSON Schema for every command through schema` and MCP `tools/list`. - Token-efficient TOON output by default, plus JSON, YAML, Markdown, and JSONL. - Structured success/error envelopes, typed error codes, retryability, and call-to-actions. - Output filtering and exact `cl100k_base` token counting/pagin"
+        },
+        {
+          "id": 183875409,
+          "name": "gakonst.github.io",
+          "fullName": "gakonst/gakonst.github.io",
+          "description": "All of my thoughts. Technical mostly.",
+          "htmlUrl": "https://github.com/gakonst/gakonst.github.io",
+          "homepage": null,
+          "language": "HTML",
+          "topics": [],
+          "stars": 12,
+          "forks": 6,
+          "watchers": 12,
+          "openIssues": 2,
+          "updatedAt": "2026-06-29T11:20:09Z",
+          "pushedAt": "2026-09-07T07:39:12Z",
+          "isFork": false,
+          "relevanceScore": 136,
+          "repoLanguages": [
+            "HTML"
+          ],
+          "detectedStack": [
+            "HTML"
+          ]
+        },
+        {
+          "id": 1403769334,
+          "name": "glm-vx",
+          "fullName": "gakonst/glm-vx",
+          "description": "Experimental GLM-5.3 serving engine with from-scratch Vx CPU kernels, checkpoint loading, and streaming HTTP",
+          "htmlUrl": "https://github.com/gakonst/glm-vx",
+          "homepage": null,
+          "language": "Python",
+          "topics": [],
+          "stars": 8,
+          "forks": 2,
+          "watchers": 8,
+          "openIssues": 0,
+          "updatedAt": "2026-10-28T08:36:05Z",
+          "pushedAt": "2026-10-05T00:14:00Z",
+          "isFork": false,
+          "relevanceScore": 124,
+          "repoLanguages": [
+            "Python"
+          ],
+          "detectedStack": [
+            "Python"
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "language": "Rust",
+          "repoCount": 11,
+          "percentage": 30,
+          "color": "#DEA584"
+        },
+        {
+          "language": "TypeScript",
+          "repoCount": 7,
+          "percentage": 26,
+          "color": "#3178C6"
+        },
+        {
+          "language": "Python",
+          "repoCount": 3,
+          "percentage": 18,
+          "color": "#3572A5"
+        },
+        {
+          "language": "HTML",
+          "repoCount": 1,
+          "percentage": 11,
+          "color": "#E34C26"
+        },
+        {
+          "language": "Zig",
+          "repoCount": 1,
+          "percentage": 11,
+          "color": "#64748B"
+        },
+        {
+          "language": "Swift",
+          "repoCount": 1,
+          "percentage": 4,
+          "color": "#F05138"
+        }
+      ],
+      "activity": {
+        "recentEventsCount": 30,
+        "pushEventsCount": 12,
+        "prEventsCount": 5,
+        "activeDaysLast30": 4,
+        "totalStars": 3178,
+        "totalForks": 1013,
+        "primaryLanguage": "Rust",
+        "topLanguages": [
+          "Rust",
+          "TypeScript",
+          "Python"
+        ],
+        "inferredFocus": "Systems & CLI Engineering",
+        "accountYears": 10.7,
+        "originalReposCount": 28,
+        "detectedTechnologies": [
+          "TypeScript",
+          "Rust",
+          "Swift",
+          "CSS",
+          "Node.js",
+          "GitHub Actions",
+          "Zig",
+          "Shell",
+          "Makefile",
+          "Python",
+          "C",
+          "JavaScript"
+        ]
+      },
+      "analyzedAt": "2026-11-17T00:50:26.380Z"
+    },
+    "expiresAt": 1794880226380
+  },
+  "habib-medhat": {
+    "result": {
+      "profile": {
+        "login": "Habib-Medhat",
+        "name": "Habib Medhat",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/139159367?v=4",
+        "bio": "Passionate about programming , with a commitment to continuous learning. Fluent in Arabic and B2 in English. Motivated to contribute to innovative projects.",
+        "company": "Egyptian Russian University",
+        "location": "Cairo",
+        "blog": "",
+        "htmlUrl": "https://github.com/Habib-Medhat",
+        "publicRepos": 5,
+        "followers": 2,
+        "following": 3,
+        "createdAt": "2023-07-10T17:03:31Z"
+      },
+      "topRepos": [
+        {
+          "id": 1328210066,
+          "name": "PowerBI-Breadfast-Sales-Analysis",
+          "fullName": "Habib-Medhat/PowerBI-Breadfast-Sales-Analysis",
+          "description": "Power BI sales analysis project developed during ITI training, using SQL Server, Power Query, DAX, and data modeling to analyze orders, products, territories, and sales performance.",
+          "htmlUrl": "https://github.com/Habib-Medhat/PowerBI-Breadfast-Sales-Analysis",
+          "homepage": null,
+          "language": null,
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2026-08-08T22:16:22Z",
+          "pushedAt": "2026-08-08T22:16:19Z",
+          "isFork": false,
+          "relevanceScore": 71,
+          "repoLanguages": [],
+          "detectedStack": [],
+          "readmeExcerpt": "🎓 Training This project was developed as part of my training at the Information Technology Institute (ITI) . The project demonstrates practical experience in building a Business Intelligence solution using SQL Server, Power BI, Power Query, DAX, and dimensional data modeling. 🗄️ Data Source The project uses data from AdventureWorks2022 through SQL Server. The data model includes: - Fact Order Details - Products - Sales Persons - Ship Methods - Order Statuses - Territories - Date Dimension 🛠️ Tools & Technologies - SQL Server - Power BI Desktop - Power Query - DAX - Data Modeling - Star Schema - GitHub"
+        },
+        {
+          "id": 1327968383,
+          "name": "PowerBI-AdventureWorks-Sales-Analysis",
+          "fullName": "Habib-Medhat/PowerBI-AdventureWorks-Sales-Analysis",
+          "description": "Interactive Power BI dashboard for analyzing AdventureWorks sales, orders, products, customers, and performance using DAX and data modeling.",
+          "htmlUrl": "https://github.com/Habib-Medhat/PowerBI-AdventureWorks-Sales-Analysis",
+          "homepage": null,
+          "language": null,
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2026-08-08T17:07:11Z",
+          "pushedAt": "2026-08-08T17:07:05Z",
+          "isFork": false,
+          "relevanceScore": 71,
+          "repoLanguages": [],
+          "detectedStack": [],
+          "readmeExcerpt": "# Power BI AdventureWorks Sales Analysis 📊 Project Overview This project was developed as part of my training at the Information Technology Institute (ITI) . It is an interactive Power BI dashboard designed to analyze sales performance, order trends, product performance, customers, territories, and order status using an AdventureWorks-based sales dataset. The project focuses on practical Business Intelligence concepts including data transformation, data modeling, DAX, and interactive data visualization. 🎓 Training Program: Information Technology Institute (ITI) Track: Data Analysis / Business Intelligence Project: Power BI Sales Analysis 🎯 Project Objectives - Analyze overall sales and order performance. - Track total orders and order details. - Analyze sales trends over time. - Compare product categories and subcategories. - Analyze o"
+        },
+        {
+          "id": 1240856921,
+          "name": "flight-fare-prediction-system",
+          "fullName": "Habib-Medhat/flight-fare-prediction-system",
+          "description": "Flight fare prediction system using EDA, Machine Learning, FastAPI, and XGBoost.",
+          "htmlUrl": "https://github.com/Habib-Medhat/flight-fare-prediction-system",
+          "homepage": null,
+          "language": "Python",
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2026-05-16T17:33:28Z",
+          "pushedAt": "2026-05-16T17:33:25Z",
+          "isFork": false,
+          "relevanceScore": 61,
+          "repoLanguages": [
+            "HTML",
+            "Python"
+          ],
+          "detectedStack": [
+            "HTML",
+            "Python",
+            "FastAPI"
+          ],
+          "readmeExcerpt": "# Flight Fare EDA and ML Project This project explores Bangladesh flight fare data and exposes a FastAPI endpoint for fare prediction. Setup Run the API The API will be available at `http://127.0.0.1:8000`. Run the EDA script The script loads `bangladesh_flight_prices_dataset.csv`, prepares date/time features, caps fare outliers, runs statistical tests, applies PCA, and compares regression models. Frontend Open `flight_fare_frontend.html` after starting the API. The form uses the same feature names and category values expected by the model."
+        }
+      ],
+      "languages": [
+        {
+          "language": "HTML",
+          "repoCount": 1,
+          "percentage": 77,
+          "color": "#E34C26"
+        },
+        {
+          "language": "Python",
+          "repoCount": 1,
+          "percentage": 23,
+          "color": "#3572A5"
+        }
+      ],
+      "activity": {
+        "recentEventsCount": 0,
+        "pushEventsCount": 0,
+        "prEventsCount": 0,
+        "activeDaysLast30": 0,
+        "totalStars": 0,
+        "totalForks": 0,
+        "primaryLanguage": "Python",
+        "topLanguages": [
+          "Python"
+        ],
+        "inferredFocus": "Frontend & UI Engineering",
+        "accountYears": 3.4,
+        "originalReposCount": 3,
+        "detectedTechnologies": [
+          "HTML",
+          "Python",
+          "FastAPI"
+        ]
+      },
+      "profileReadmeExcerpt": "Hi, I'm Habib Medhat 👋 Data Analyst 📩 Contact 🛠️ Skills & Tools 📊 GitHub Stats &nbsp; 🏆 Achievements 🐍 Contribution Graph 🚀 About Me ✅ Studying Data Science ✅ Becoming a Data Engineer ✅ Interested in ETL, Cloud, Pipelines & BI ✅ Building real-world Data Engineering / ML / BI projects ✅ Always learning & improving > *“Data is the new oil — and I'm refining it.”* ⭐ Feel free to explore & star my projects!",
+      "analyzedAt": "2026-11-17T01:20:06.059Z"
+    },
+    "expiresAt": 1794882006059
+  },
+  "khaled": {
+    "result": {
+      "profile": {
+        "login": "khaled",
+        "name": "khaled agrama",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11412?v=4",
+        "bio": null,
+        "company": "freelance",
+        "location": "North Carolina, US",
+        "blog": "",
+        "htmlUrl": "https://github.com/khaled",
+        "publicRepos": 49,
+        "followers": 37,
+        "following": 3,
+        "createdAt": "2008-05-25T01:35:44Z"
+      },
+      "topRepos": [
+        {
+          "id": 17257587,
+          "name": "react-express-template",
+          "fullName": "khaled/react-express-template",
+          "description": "Full stack web app starter template using React, ES6, CoffeeScript, Express, and more",
+          "htmlUrl": "https://github.com/khaled/react-express-template",
+          "homepage": null,
+          "language": "CoffeeScript",
+          "topics": [],
+          "stars": 127,
+          "forks": 26,
+          "watchers": 127,
+          "openIssues": 0,
+          "updatedAt": "2026-10-22T16:03:17Z",
+          "pushedAt": "2016-05-27T17:05:12Z",
+          "isFork": false,
+          "relevanceScore": 122,
+          "repoLanguages": [
+            "CoffeeScript",
+            "JavaScript",
+            "HTML",
+            "CSS"
+          ],
+          "detectedStack": [
+            "CoffeeScript",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "React",
+            "Node.js",
+            "Express"
+          ],
+          "readmeExcerpt": "react-express-template ============================= Full stack web app starter template with React 15, React Router, ES6 (via Babel), CoffeeScript, Express/Node.js, Semantic-UI, Gulp and more. Getting Started 1. Fork and/or clone 2. Run 3. Start the dev server by running 4. Visit http://localhost:3000 5. Get to work! Languages / Frameworks / Libraries * Facebook's React for client side view and controller logic * React Router for client side routing * ES6 (via Babel) * CoffeeScript with React sugar (.cjsx) * Normalize-CSS for normalization of default element styles across browsers * Semantic-UI CSS framework * LESS for extended styling capabilities * Autoprefixer for automatic vendor prefixing * JQuery because semantic wants it (use React for most client side view rendering / manipulation) * Webpack for client side CommonJS modules and s"
+        },
+        {
+          "id": 78923,
+          "name": "rexty",
+          "fullName": "khaled/rexty",
+          "description": "Rexty is a plugin that aims to assist in the development of Rails back ends for Ext JS applications.",
+          "htmlUrl": "https://github.com/khaled/rexty",
+          "homepage": null,
+          "language": null,
+          "topics": [],
+          "stars": 3,
+          "forks": 1,
+          "watchers": 3,
+          "openIssues": 0,
+          "updatedAt": "2021-10-13T19:28:48Z",
+          "pushedAt": "2008-11-21T02:08:11Z",
+          "isFork": false,
+          "relevanceScore": 68,
+          "repoLanguages": [],
+          "detectedStack": [
+            "JavaScript"
+          ],
+          "readmeExcerpt": "Introduction Rexty is a plugin that aims to assist in the development of Rails back ends for Ext JS applications. At the moment, the functionality offered is fairly minimal. Example Controller code: lambda { Company.all } do node :company, :text => :name, :children => :projects node :project, :text => :name, :children => :tasks node :task, :text => :name end end\"> class CompanyController lambda { Company.all } do node :company, :text => :name, :children => :projects node :project, :text => :name, :children => :tasks node :task, :text => :name end end Javascript code: var tree = new Ext.tree.TreePanel({ loader: new Ext.tree.TreeLoader({ dataUrl: \"/company/companies_tree_data\" }), root: new Ext.tree.AsyncTreeNode({ id: \"root\", text: \"Root\", expanded: true }), rootVisible: false, height: 300, width: 200, el: \"tree\" }); tree.render(); Copyrig"
+        },
+        {
+          "id": 946555,
+          "name": "easy_ext",
+          "fullName": "khaled/easy_ext",
+          "description": "A small library that eases the development of Rails 3+ applications with Ext JS front ends.",
+          "htmlUrl": "https://github.com/khaled/easy_ext",
+          "homepage": null,
+          "language": "Ruby",
+          "topics": [],
+          "stars": 1,
+          "forks": 0,
+          "watchers": 1,
+          "openIssues": 0,
+          "updatedAt": "2013-10-30T03:31:23Z",
+          "pushedAt": "2010-09-28T22:39:29Z",
+          "isFork": false,
+          "relevanceScore": 52,
+          "repoLanguages": [
+            "Ruby"
+          ],
+          "detectedStack": [
+            "Ruby"
+          ],
+          "readmeExcerpt": "easy_ext Easy Ext is a library that eases the development of Rails applications with Ext JS front ends. Note on Patches/Pull Requests Fork the project. Make your feature addition or bug fix. Add tests for it. This is important so I don’t break it in a future version unintentionally. Commit, do not mess with Rakefile, version, or history. (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull) Send me a pull request. Bonus points for topic branches. Copyright Copyright © 2010 Khaled Agrama. See LICENSE for details."
+        },
+        {
+          "id": 756075807,
+          "name": "nix-fp-project",
+          "fullName": "khaled/nix-fp-project",
+          "description": "An example flake parts module that implements \"projects\"",
+          "htmlUrl": "https://github.com/khaled/nix-fp-project",
+          "homepage": null,
+          "language": "Nix",
+          "topics": [],
+          "stars": 1,
+          "forks": 0,
+          "watchers": 1,
+          "openIssues": 0,
+          "updatedAt": "2024-07-13T17:41:57Z",
+          "pushedAt": "2024-02-11T22:59:24Z",
+          "isFork": false,
+          "relevanceScore": 44,
+          "repoLanguages": [
+            "Nix",
+            "Go"
+          ],
+          "detectedStack": [
+            "Nix",
+            "Go"
+          ],
+          "readmeExcerpt": "see https://github.com/hercules-ci/flake-parts/issues/205"
+        },
+        {
+          "id": 469751974,
+          "name": "nodenix",
+          "fullName": "khaled/nodenix",
+          "description": "Software project built with Nix and hosted on GitHub.",
+          "htmlUrl": "https://github.com/khaled/nodenix",
+          "homepage": null,
+          "language": "Nix",
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2022-03-14T13:53:13Z",
+          "pushedAt": "2022-03-15T20:21:40Z",
+          "isFork": false,
+          "relevanceScore": 28,
+          "repoLanguages": [
+            "Nix"
+          ],
+          "detectedStack": [
+            "Nix"
+          ]
+        },
+        {
+          "id": 771082715,
+          "name": "k3s-aarch64",
+          "fullName": "khaled/k3s-aarch64",
+          "description": "Software project built with Nix and hosted on GitHub.",
+          "htmlUrl": "https://github.com/khaled/k3s-aarch64",
+          "homepage": null,
+          "language": "Nix",
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2024-03-12T16:53:44Z",
+          "pushedAt": "2024-03-12T16:53:40Z",
+          "isFork": false,
+          "relevanceScore": 20,
+          "repoLanguages": [
+            "Nix"
+          ],
+          "detectedStack": [
+            "Nix"
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "language": "Nix",
+          "repoCount": 4,
+          "percentage": 62,
+          "color": "#64748B"
+        },
+        {
+          "language": "Ruby",
+          "repoCount": 1,
+          "percentage": 19,
+          "color": "#701516"
+        },
+        {
+          "language": "CoffeeScript",
+          "repoCount": 1,
+          "percentage": 17,
+          "color": "#64748B"
+        },
+        {
+          "language": "JavaScript",
+          "repoCount": 1,
+          "percentage": 2,
+          "color": "#EAB308"
+        },
+        {
+          "language": "HTML",
+          "repoCount": 1,
+          "percentage": 1,
+          "color": "#E34C26"
+        },
+        {
+          "language": "Go",
+          "repoCount": 1,
+          "percentage": 1,
+          "color": "#00ADD8"
+        }
+      ],
+      "activity": {
+        "recentEventsCount": 7,
+        "pushEventsCount": 0,
+        "prEventsCount": 0,
+        "activeDaysLast30": 6,
+        "totalStars": 151,
+        "totalForks": 34,
+        "primaryLanguage": "Nix",
+        "topLanguages": [
+          "Nix",
+          "Ruby"
+        ],
+        "inferredFocus": "Full-Stack Web Engineering",
+        "accountYears": 18.5,
+        "originalReposCount": 7,
+        "detectedTechnologies": [
+          "CoffeeScript",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "React",
+          "Node.js",
+          "Express",
+          "Ruby",
+          "Nix",
+          "Go"
+        ]
+      },
+      "analyzedAt": "2026-11-24T21:16:59.744Z"
+    },
+    "expiresAt": 1795558619744
+  },
+  "github": {
+    "result": {
+      "profile": {
+        "login": "github",
+        "name": "GitHub",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9919?v=4",
+        "bio": "How people build software.",
+        "company": null,
+        "location": "United States of America",
+        "blog": "https://github.com/about",
+        "htmlUrl": "https://github.com/github",
+        "publicRepos": 572,
+        "followers": 95618,
+        "following": 0,
+        "createdAt": "2008-05-11T04:37:31Z"
+      },
+      "topRepos": [
+        {
+          "id": 1036865607,
+          "name": "gh-aw",
+          "fullName": "github/gh-aw",
+          "description": "GitHub Agentic Workflows",
+          "htmlUrl": "https://github.com/github/gh-aw",
+          "homepage": "https://gh.io/gh-aw",
+          "language": "Go",
+          "topics": [
+            "actions",
+            "cai",
+            "ci",
+            "claude-code",
+            "codex",
+            "copilot"
+          ],
+          "stars": 5647,
+          "forks": 631,
+          "watchers": 5647,
+          "openIssues": 577,
+          "updatedAt": "2026-11-17T02:52:44Z",
+          "pushedAt": "2026-11-17T04:36:49Z",
+          "isFork": false,
+          "relevanceScore": 190,
+          "repoLanguages": [
+            "Go",
+            "JavaScript",
+            "TypeScript",
+            "Shell"
+          ],
+          "detectedStack": [
+            "Go",
+            "JavaScript",
+            "TypeScript",
+            "Shell",
+            "GitHub Actions"
+          ],
+          "readmeExcerpt": "# GitHub Agentic Workflows Agent quick links Hello fellow agent! Welcome to GitHub Agentic Workflows = Actions + Agent + Safety. Here are some pointers to get you started in using this tool. - Create a new workflow: https://raw.githubusercontent.com/github/gh-aw/main/create.md - Install: https://raw.githubusercontent.com/github/gh-aw/main/install.md - Package a workflow repository: https://raw.githubusercontent.com/github/gh-aw/main/package.md - Reference: https://raw.githubusercontent.com/github/gh-aw/main/.github/aw/github-agentic-workflows.md GitHub Agentic Workflows (`gh-aw`) lets developers define AI-powered repository automation in Markdown with YAML frontmatter and run AI agents securely through GitHub Actions. The `gh-aw` GitHub CLI extension compiles each agentic workflow into a standard GitHub Actions workflow. Use conventional "
+        },
+        {
+          "id": 1151205052,
+          "name": "squad",
+          "fullName": "github/squad",
+          "description": "Squad: AI agent teams for any project",
+          "htmlUrl": "https://github.com/github/squad",
+          "homepage": "https://github.github.io/squad/",
+          "language": "TypeScript",
+          "topics": [
+            "ai",
+            "cli",
+            "copilot",
+            "developer-tools",
+            "github-copilot",
+            "multi-agent"
+          ],
+          "stars": 3401,
+          "forks": 521,
+          "watchers": 3401,
+          "openIssues": 126,
+          "updatedAt": "2026-11-16T23:15:55Z",
+          "pushedAt": "2026-11-17T04:34:14Z",
+          "isFork": false,
+          "relevanceScore": 190,
+          "repoLanguages": [
+            "TypeScript",
+            "JavaScript",
+            "C#",
+            "PowerShell"
+          ],
+          "detectedStack": [
+            "TypeScript",
+            "JavaScript",
+            "C#",
+            "PowerShell"
+          ],
+          "readmeExcerpt": "# Squad English | 中文 Human-led AI agent teams for any project. One command. A team that helps you move faster with your code. Breaking changes are documented in CHANGELOG.md. What is Squad? Squad gives you a human-directed AI development team through GitHub Copilot. Describe what you're building. Get a team of specialists — frontend, backend, tester, lead — that live in your repo as files. They persist across sessions, learn your codebase, share decisions, and help you move faster without giving up oversight. Squad is a productivity tool for humans, not a replacement for engineers, reviewers, or decision-makers. People stay accountable for priorities, approvals, and final changes; Squad helps with coordination, repetition, and parallel execution. It's not a chatbot wearing hats. Each team member runs in its own context, reads only its own"
+        },
+        {
+          "id": 143040428,
+          "name": "codeql",
+          "fullName": "github/codeql",
+          "description": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security",
+          "htmlUrl": "https://github.com/github/codeql",
+          "homepage": "https://codeql.github.com",
+          "language": "CodeQL",
+          "topics": [
+            "codeql",
+            "github-advanced-security",
+            "github-security-lab",
+            "semmle-ql",
+            "works-with-codespaces"
+          ],
+          "stars": 10370,
+          "forks": 2145,
+          "watchers": 10370,
+          "openIssues": 1541,
+          "updatedAt": "2026-11-17T00:15:22Z",
+          "pushedAt": "2026-11-17T03:03:57Z",
+          "isFork": false,
+          "relevanceScore": 190,
+          "repoLanguages": [
+            "CodeQL",
+            "C#",
+            "Kotlin",
+            "Java"
+          ],
+          "detectedStack": [
+            "CodeQL",
+            "C#",
+            "Kotlin",
+            "Java"
+          ],
+          "readmeExcerpt": "# CodeQL This open source repository contains the standard CodeQL libraries and queries that power GitHub Advanced Security and the other application security products that GitHub makes available to its customers worldwide. How do I learn CodeQL and run queries? There is extensive documentation about the CodeQL language, writing CodeQL using the CodeQL extension for Visual Studio Code and using the CodeQL CLI. Contributing We welcome contributions to our standard library and standard checks. Do you have an idea for a new check, or how to improve an existing query? Then please go ahead and open a pull request! Before you do, though, please take the time to read our contributing guidelines. You can also consult our style guides to learn how to format your code for consistency and clarity, how to write query metadata, and how to write query "
+        },
+        {
+          "id": 11426474,
+          "name": "choosealicense.com",
+          "fullName": "github/choosealicense.com",
+          "description": "A site to provide non-judgmental guidance on choosing a license for your open source project",
+          "htmlUrl": "https://github.com/github/choosealicense.com",
+          "homepage": "https://choosealicense.com",
+          "language": "Ruby",
+          "topics": [
+            "jekyll",
+            "law",
+            "licensing",
+            "open-source",
+            "open-source-licensing"
+          ],
+          "stars": 4243,
+          "forks": 1667,
+          "watchers": 4243,
+          "openIssues": 69,
+          "updatedAt": "2026-11-16T18:36:22Z",
+          "pushedAt": "2026-11-17T01:44:59Z",
+          "isFork": false,
+          "relevanceScore": 190,
+          "repoLanguages": [
+            "HTML",
+            "Ruby",
+            "SCSS",
+            "JavaScript"
+          ],
+          "detectedStack": [
+            "HTML",
+            "Ruby",
+            "SCSS",
+            "JavaScript"
+          ],
+          "readmeExcerpt": "ChooseALicense.com aims to provide accurate , non-judgmental , and understandable information about popular open source licenses in order to help people make informed decisions about the projects they start, maintain, contribute to, and use. We catalog select open source licenses with a Jekyll collection (in licenses`). The catalog is used to render ChooseALicense.com and is regularly vendored into Licensee, which GitHub uses to provide a license chooser and license detection, a licenses API, and to display license descriptions and metadata. Goals * Be accurate, non-judgmental, and understandable. Our goal is to help you find a license that meets *your* goals. * The homepage should have just enough to help most folks make a decision about what license to use for a project they contribute to. * For the rest, the site will contain additiona"
+        },
+        {
+          "id": 1077889760,
+          "name": "gh-aw-firewall",
+          "fullName": "github/gh-aw-firewall",
+          "description": "GitHub Agentic Workflows Firewall",
+          "htmlUrl": "https://github.com/github/gh-aw-firewall",
+          "homepage": "https://github.github.com/gh-aw-firewall/",
+          "language": "TypeScript",
+          "topics": [
+            "agentic",
+            "github",
+            "workflows"
+          ],
+          "stars": 164,
+          "forks": 84,
+          "watchers": 164,
+          "openIssues": 76,
+          "updatedAt": "2026-11-16T14:18:25Z",
+          "pushedAt": "2026-11-17T01:15:46Z",
+          "isFork": false,
+          "relevanceScore": 190,
+          "repoLanguages": [
+            "TypeScript"
+          ],
+          "detectedStack": [
+            "TypeScript"
+          ]
+        },
+        {
+          "id": 13597853,
+          "name": "government.github.com",
+          "fullName": "github/government.github.com",
+          "description": "Gather, curate, and feature stories of public servants and civic hackers using GitHub as part of their open government innovations",
+          "htmlUrl": "https://github.com/github/government.github.com",
+          "homepage": "http://government.github.com/",
+          "language": "Ruby",
+          "topics": [
+            "government",
+            "open-government",
+            "stories"
+          ],
+          "stars": 2033,
+          "forks": 1005,
+          "watchers": 2033,
+          "openIssues": 6,
+          "updatedAt": "2026-11-17T01:48:34Z",
+          "pushedAt": "2026-11-17T01:14:34Z",
+          "isFork": false,
+          "relevanceScore": 190,
+          "repoLanguages": [
+            "Ruby"
+          ],
+          "detectedStack": [
+            "Ruby"
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "language": "Ruby",
+          "repoCount": 21,
+          "percentage": 28,
+          "color": "#701516"
+        },
+        {
+          "language": "TypeScript",
+          "repoCount": 19,
+          "percentage": 27,
+          "color": "#3178C6"
+        },
+        {
+          "language": "JavaScript",
+          "repoCount": 14,
+          "percentage": 18,
+          "color": "#EAB308"
+        },
+        {
+          "language": "Go",
+          "repoCount": 13,
+          "percentage": 16,
+          "color": "#00ADD8"
+        },
+        {
+          "language": "Python",
+          "repoCount": 5,
+          "percentage": 6,
+          "color": "#3572A5"
+        },
+        {
+          "language": "Shell",
+          "repoCount": 4,
+          "percentage": 5,
+          "color": "#89E051"
+        }
+      ],
+      "activity": {
+        "recentEventsCount": 30,
+        "pushEventsCount": 0,
+        "prEventsCount": 0,
+        "activeDaysLast30": 4,
+        "totalStars": 560092,
+        "totalForks": 229317,
+        "primaryLanguage": "Ruby",
+        "topLanguages": [
+          "Ruby",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "inferredFocus": "Backend & API Engineering",
+        "accountYears": 18.5,
+        "originalReposCount": 98,
+        "detectedTechnologies": [
+          "Go",
+          "JavaScript",
+          "TypeScript",
+          "Shell",
+          "GitHub Actions",
+          "C#",
+          "PowerShell",
+          "CodeQL",
+          "Kotlin",
+          "Java",
+          "HTML",
+          "Ruby"
+        ]
+      },
+      "analyzedAt": "2026-11-17T04:37:48.206Z"
+    },
+    "expiresAt": 1794893868206
+  },
+  "eng-m0stafaehab": {
+    "result": {
+      "profile": {
+        "login": "Eng-M0stafaEhab",
+        "name": "Mustafa Ehab Mustafa Aql",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/162746378?v=4",
+        "bio": "Aspiring Data Engineer | Data Science Trainee @ DEPI | IS Student @ FCAI-CU | Data Analyst | Software Engineer",
+        "company": "Cairo University ",
+        "location": "Cairo , Egypt",
+        "blog": "",
+        "htmlUrl": "https://github.com/Eng-M0stafaEhab",
+        "publicRepos": 9,
+        "followers": 26,
+        "following": 37,
+        "createdAt": "2024-03-08T19:39:51Z"
+      },
+      "topRepos": [
+        {
+          "id": 1047576112,
+          "name": "DEPI_Graduation_Project",
+          "fullName": "Eng-M0stafaEhab/DEPI_Graduation_Project",
+          "description": "Data Science project about \"Sales Forecasting and Demand Prediction\"",
+          "htmlUrl": "https://github.com/Eng-M0stafaEhab/DEPI_Graduation_Project",
+          "homepage": null,
+          "language": "Jupyter Notebook",
+          "topics": [],
+          "stars": 1,
+          "forks": 0,
+          "watchers": 1,
+          "openIssues": 0,
+          "updatedAt": "2026-02-24T12:08:33Z",
+          "pushedAt": "2026-02-24T12:08:29Z",
+          "isFork": false,
+          "relevanceScore": 60,
+          "repoLanguages": [
+            "Jupyter Notebook"
+          ],
+          "detectedStack": [
+            "Jupyter Notebook"
+          ],
+          "readmeExcerpt": "# DEPI_Graduation_Project Sales Forecasting and Demand Prediction This repository hosts the code and documentation for a deep learning project focused on predicting customer next-action events (e.g., view, cart, purchase) in an online cosmetics retail environment. By analyzing sequences of user behavior, the goal is to develop a proactive system for identifying high-value users and mitigating customer churn in real-time. The core solution is a Hybrid Convolutional Neural Network (CNN) and Bidirectional Gated Recurrent Unit (BiGRU) model, selected for its superior ability to capture both short-term intent and long-term temporal dependencies in the event stream. 💾 Dataset The project utilizes a publicly available, real-world dataset. - Dataset Name: Online Cosmetics Dataset - Source: Kaggle - Source link: https://www.kaggle.com/datasets/mk"
+        },
+        {
+          "id": 1374614844,
+          "name": "DEMI-assistive-communication-app",
+          "fullName": "Eng-M0stafaEhab/DEMI-assistive-communication-app",
+          "description": "Software project built with JavaScript and hosted on GitHub.",
+          "htmlUrl": "https://github.com/Eng-M0stafaEhab/DEMI-assistive-communication-app",
+          "homepage": null,
+          "language": "JavaScript",
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2026-09-17T15:03:27Z",
+          "pushedAt": "2026-09-17T15:03:23Z",
+          "isFork": false,
+          "relevanceScore": 53,
+          "repoLanguages": [
+            "JavaScript",
+            "HTML"
+          ],
+          "detectedStack": [
+            "JavaScript",
+            "HTML"
+          ]
+        },
+        {
+          "id": 1166000124,
+          "name": "PyTest-Genie",
+          "fullName": "Eng-M0stafaEhab/PyTest-Genie",
+          "description": "A CLI tool that uses AST validation and AI to generate standalone Python unit tests with 100% branch coverage.",
+          "htmlUrl": "https://github.com/Eng-M0stafaEhab/PyTest-Genie",
+          "homepage": null,
+          "language": "Python",
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2026-02-24T20:40:55Z",
+          "pushedAt": "2026-02-24T20:40:51Z",
+          "isFork": false,
+          "relevanceScore": 42,
+          "repoLanguages": [
+            "Python"
+          ],
+          "detectedStack": [
+            "Python"
+          ],
+          "readmeExcerpt": "# 🧪 AI Unit Test Generator A command-line tool that automatically generates Python unit tests for your functions using a Large Language Model (LLM) via the Hugging Face Inference API. 📋 Table of Contents - Overview - Features - Prerequisites - Installation - Configuration - How to Run - Usage Examples - Limitations Overview This tool takes a single Python function as input, validates it, and sends it to an LLM (`mistralai/Mistral-7B-Instruct-v0.2`) to generate a complete, runnable `unittest` test file — including imports, edge cases, exception handling, and branch coverage. Features - ✅ Accepts input via file path , manual paste , or stdin pipe - ✅ Validates that the input contains exactly one non-empty function - ✅ Automatically strips comments before sending to the AI - ✅ Generates tests covering all branches, edge cases, and exceptio"
+        },
+        {
+          "id": 884417146,
+          "name": "Vole-Machine-Simulator",
+          "fullName": "Eng-M0stafaEhab/Vole-Machine-Simulator",
+          "description": "The used language in the Vole machine project is C++ and a help with QT to create the GUI model, without using additional libraries.",
+          "htmlUrl": "https://github.com/Eng-M0stafaEhab/Vole-Machine-Simulator",
+          "homepage": null,
+          "language": null,
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2024-11-06T19:45:40Z",
+          "pushedAt": "2024-11-06T19:45:35Z",
+          "isFork": false,
+          "relevanceScore": 42,
+          "repoLanguages": [],
+          "detectedStack": []
+        },
+        {
+          "id": 1056636826,
+          "name": "Personal-Portfolio",
+          "fullName": "Eng-M0stafaEhab/Personal-Portfolio",
+          "description": "My Personal Portfolio Website – A responsive and modern portfolio built with HTML, CSS, and JavaScript to showcase my skills, projects, and experience.  🔹 Features:  Clean and minimal design  Responsive layout (works on mobile, tablet, desktop)  Sections for About, Skills, Projects, and Contact  Easy to customize and extend",
+          "htmlUrl": "https://github.com/Eng-M0stafaEhab/Personal-Portfolio",
+          "homepage": null,
+          "language": null,
+          "topics": [],
+          "stars": 0,
+          "forks": 0,
+          "watchers": 0,
+          "openIssues": 0,
+          "updatedAt": "2025-09-14T14:02:32Z",
+          "pushedAt": "2025-09-14T14:02:32Z",
+          "isFork": false,
+          "relevanceScore": 34,
+          "repoLanguages": [],
+          "detectedStack": [
+            "JavaScript"
+          ]
+        }
+      ],
+      "languages": [
+        {
+          "language": "JavaScript",
+          "repoCount": 1,
+          "percentage": 32,
+          "color": "#EAB308"
+        },
+        {
+          "language": "Jupyter Notebook",
+          "repoCount": 1,
+          "percentage": 29,
+          "color": "#DA5B0B"
+        },
+        {
+          "language": "Python",
+          "repoCount": 1,
+          "percentage": 29,
+          "color": "#3572A5"
+        },
+        {
+          "language": "HTML",
+          "repoCount": 1,
+          "percentage": 9,
+          "color": "#E34C26"
+        }
+      ],
+      "activity": {
+        "recentEventsCount": 0,
+        "pushEventsCount": 0,
+        "prEventsCount": 0,
+        "activeDaysLast30": 0,
+        "totalStars": 1,
+        "totalForks": 0,
+        "primaryLanguage": "JavaScript",
+        "topLanguages": [
+          "JavaScript",
+          "Jupyter Notebook",
+          "Python"
+        ],
+        "inferredFocus": "Frontend & UI Engineering",
+        "accountYears": 2.7,
+        "originalReposCount": 5,
+        "detectedTechnologies": [
+          "Jupyter Notebook",
+          "JavaScript",
+          "HTML",
+          "Python"
+        ]
+      },
+      "profileReadmeExcerpt": "# 💫 About Me: I am a data lover fascinated by the way data can be used for crucial, life-or-death decisions . I believe that without an appropriate way to handle it, data is simply a treasure wasted. - 🎓 Junior IS Student at the Faculty of Computers and AI, Cairo University. - 💼 Data Engineer with the impatience to gain more experience and build real-world solutions. - 🎯 Currently focusing on gaining deeper knowledge and expanding my expertise in data-related information. 🌐 Socials: # 💻 Tech Stack: # 📊 GitHub Stats: ✍️ Dev Quote",
+      "analyzedAt": "2026-11-24T21:28:41.376Z"
+    },
+    "expiresAt": 1795559321376
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Repo2Folio — GitHub Developer Portfolio Generator",
+  "description": "Analyze GitHub repositories and developer activity to generate multi-template, AI-optimized portfolios for junior software engineers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
